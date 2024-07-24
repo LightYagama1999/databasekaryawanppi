@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* navbar */
+.navbar {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+.containernavbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: red;
+  border-radius: 5px;
+}
+
+/* searching */
+.loader {
+  width: 100px;
+  position: absolute;
+  top: 125px;
+  left: 275px;
+  z-index: -1;
+  display: none;
+}
+
+/* Table */
+#container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Menentukan lebar kolom tertentu */
+th,
+td {
+  min-width: 100px; /* Anda dapat menyesuaikan lebar ini sesuai kebutuhan */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 5px;
+}
